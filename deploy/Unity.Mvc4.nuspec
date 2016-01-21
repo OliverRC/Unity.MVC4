@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Upgraded to Unity 3.*.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>MVC4 Unity</tags>
+  </metadata>
+	  <files>
+    <file src="Unity.Mvc4.README.txt" target="content" />
+    <file src="Bootstrapper.cs.pp" target="content" />
+  </files>
+</package>
