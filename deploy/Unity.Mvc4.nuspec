@@ -1,19 +1,34 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <id>Unity.Mvc4</id>
+    <version>1.5.0.0</version>
+    <title>Unity.MVC4</title>
+    <authors>Oliver Rivett-Carnac</authors>
+    <owners>Oliver Rivett-Carnac</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Upgraded to Unity 3.*.</releaseNotes>
-    <copyright>Copyright 2014</copyright>
+    <description>
+      Unity.Mvc4 is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET MVC 4. A copy of Unity.MVC3 except it references MVC4
+    </description>
+    <licenseUrl>
+      http://opensource.org/licenses/mit
+    </licenseUrl>
+    <releaseNotes>
+        * 1.5.0.0 - Upgraded libary to 3.5.1404.0.
+                    Added MIT licence to source.
+    </releaseNotes>
+    <copyright>Copyright 2016</copyright>
     <tags>MVC4 Unity</tags>
+    <dependencies>
+      <dependency id="CommonServiceLocator" version="1.0" />
+      <dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="4.0.30506.0" />
+      <dependency id="Unity" version="3.5.1404.0" />
+    </dependencies>
   </metadata>
-	  <files>
-    <file src="Unity.Mvc4.README.txt" target="content" />
-    <file src="Bootstrapper.cs.pp" target="content" />
+  <files>
+    <file src="..\src\bin\Release\Unity.Mvc4.dll" target="lib\net45" />
+    <file src="..\src\Unity.Mvc4.README.txt" target="content" />
+    <file src="..\src\Bootstrapper.cs.pp" target="content" />
   </files>
 </package>
