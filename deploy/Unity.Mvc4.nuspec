@@ -10,9 +10,8 @@
     <description>
       Unity.Mvc4 is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET MVC 4. A copy of Unity.MVC3 except it references MVC4
     </description>
-    <licenseUrl>
-      http://opensource.org/licenses/mit
-    </licenseUrl>
+    <projectUrl>https://github.com/OliverRC/Unity.MVC4</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/mit</licenseUrl>
     <releaseNotes>
         * 1.5.0.0 - Upgraded libary to 3.5.1404.0.
                     Added MIT licence to source.
