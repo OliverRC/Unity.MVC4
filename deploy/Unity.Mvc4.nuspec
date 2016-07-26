@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Unity.Mvc4</id>
-    <version>1.5.0.0</version>
+    <version>1.6.0.0</version>
     <title>Unity.MVC4</title>
     <authors>Oliver Rivett-Carnac</authors>
     <owners>Oliver Rivett-Carnac</owners>
@@ -13,16 +13,16 @@
     <projectUrl>https://github.com/OliverRC/Unity.MVC4</projectUrl>
     <licenseUrl>http://opensource.org/licenses/mit</licenseUrl>
     <releaseNotes>
+        * 1.6.0.0 - Updated library to 4.0.1 of Unity
         * 1.5.0.0 - Upgraded libary to 3.5.1404.0.
                     Added MIT licence to source.
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>MVC4 Unity</tags>
     <dependencies>
-      <dependency id="CommonServiceLocator" version="1.0" />
       <dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
       <dependency id="Microsoft.AspNet.WebApi.Core" version="4.0.30506.0" />
-      <dependency id="Unity" version="3.5.1404.0" />
+      <dependency id="Unity" version="4.0.1" />
     </dependencies>
   </metadata>
   <files>
